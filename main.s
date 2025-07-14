@@ -56,7 +56,7 @@ _start:
     lw t2,exp
     addi t3, zero, 0
     loop:
-        mul s0,s0,s0
+        mul s0,s0,t0
         addi t3,t3,1
         ble t3, t2, loop
     
